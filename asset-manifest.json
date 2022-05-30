@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PTS-project/static/css/main.e371e732.css",
-    "main.js": "/PTS-project/static/js/main.3688392d.js",
+    "main.js": "/PTS-project/static/js/main.80f038dc.js",
     "static/media/Cascadia.woff": "/PTS-project/static/media/Cascadia.9c679782671c61f121fc.woff",
     "index.html": "/PTS-project/index.html",
     "main.e371e732.css.map": "/PTS-project/static/css/main.e371e732.css.map",
-    "main.3688392d.js.map": "/PTS-project/static/js/main.3688392d.js.map"
+    "main.80f038dc.js.map": "/PTS-project/static/js/main.80f038dc.js.map"
   },
   "entrypoints": [
     "static/css/main.e371e732.css",
-    "static/js/main.3688392d.js"
+    "static/js/main.80f038dc.js"
   ]
 }
