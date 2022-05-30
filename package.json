@@ -1,6 +1,7 @@
 {
   "name": "pts-project",
   "version": "0.1.0",
+  "homepage": "https://ptaushanov.github.io/PTS-project",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -23,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
