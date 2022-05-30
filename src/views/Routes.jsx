@@ -11,11 +11,11 @@ import CentralTrend from './CentralTrend/CentralTrend'
 
 function Routes() {
     return (
-        <Router>
+        <Router basename="/PTS-project">
             <Switch>
                 <Route path="/" element={<Home />} />
-                <Route path="*" element={<NotFound />} />
                 <Route path="/central-trend" element={<CentralTrend />} />
+                <Route path="*" element={<NotFound />} />
             </Switch>
         </Router>
     )
