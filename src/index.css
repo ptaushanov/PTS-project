@@ -1,13 +1,15 @@
+@font-face {
+  font-family: 'Cascadia Code';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cascadia Code Regular'), url('./assets/fonts/Cascadia.woff') format('woff');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Cascadia Code", sans-serif
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Courier New', monospace;
 }
